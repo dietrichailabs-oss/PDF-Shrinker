@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/pdfbanner.jpg" alt="PDF Shrinker banner showing a PDF being compressed" width="100%">
+</p>
+
 <div align="center">
   <img src="assets/pdf_shrinker.svg" alt="PDF Shrinker icon" width="112">
 
