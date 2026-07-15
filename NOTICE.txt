@@ -1,0 +1,4 @@
+PDF Shrinker
+Copyright (c) 2026 Dietrich AI Labs.
+
+Third-party packages and Ghostscript remain subject to their own licenses.
