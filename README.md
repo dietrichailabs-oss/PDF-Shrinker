@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="pdf_shrinker.ico" alt="PDF Shrinker icon" width="112">
+  <img src="assets/pdf_shrinker.svg" alt="PDF Shrinker icon" width="112">
 
 # PDF Shrinker
 
@@ -53,6 +53,7 @@ The source PDFs are never overwritten.
 ```powershell
 py -3 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe .\make_icon.py
 .\.venv\Scripts\python.exe .\pdf_shrinker.py
 ```
 
@@ -86,7 +87,7 @@ Completed artifacts are written to:
 Desktop\Marks Apps\PDF Shrinker\Release
 ```
 
-The release folder contains the portable executable, installer, source package, coworker package, hashes, signature report, and exported public certificate.
+The release folder contains the portable executable, installer, source package, coworker package, hashes, signature report, and exported public certificate. The installer itself contains only the application—it does not add this README to the installed folder.
 
 ## Signing note
 
