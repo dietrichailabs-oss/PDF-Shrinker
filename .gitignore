@@ -1,0 +1,11 @@
+.venv/
+build/
+dist/
+Release/
+__pycache__/
+*.py[cod]
+*.spec
+LAST_BUILD_LOG.txt
+*.cer
+*.pfx
+*.p12
